@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, intitial-scale=1">
+    
+    <title>Away At Last Travel & Tours</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&family=DM+Serif+Text&family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+          <div class="navbar">
+            <nav style="background-color: white">
+              <img class="logo" src="images/logo.jpg" />
+              <a href="index.html">Home</a>
+              <a href="why.html">About</a>
+              <a href="contact.html">Contact</a>
+            </nav> 
+          </div>
+      </header>
+    </div>
+
+    <div class="contact">
+      <style class="contact-background">
+        div {
+          background-image: url('./images/hiking2.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+      <h1>Want to get Away At Last?</h1>
+      <h3>Fill this out and we will be in touch soon!</h3>
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
+          <p class="form-group">
+            <label>Your Name: <input class="name" type="text" name="name" /></label>   
+          </p>
+          <p class="form-group">
+            <label>Your Email: <input class="email" type="email" name="email" /></label>
+          </p>
+          <p class="form-group">
+            <label>Message: <textarea class="message" name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+          <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+        </form>
+    </div>
+  </body>
