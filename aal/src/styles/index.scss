@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "./home.scss";
+
+body {
+  font-size: 16px;
+  font-family: 'Arapey', serif;
+  text-align: center;
+  color: #111;
+  height: 100%;
+  width: 100%;
+  background: white;
+}
