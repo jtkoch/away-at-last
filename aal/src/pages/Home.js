@@ -1,4 +1,5 @@
 import React from "react";
+import Animations from '../components/Animations';
 
 import image1 from "../images/beach2.jpg";
 import image2 from "../images/machu-picchu.jpg";
@@ -7,6 +8,9 @@ import image3 from "../images/amsterdam2.jpg";
 const Home = () => {
   return (
     <div className="Home">
+
+      <Animations />
+
       <div className="title">
         <p>sheri@awayatlasttravel.com</p>
         <p>217-474-7359</p>
