@@ -14,10 +14,10 @@ function App() {
   return (
     <Container fluid className="App">
       <Router>
-        <Navbar expand="lg">
+        <Navbar expand="lg" className="nav-container">
           <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar-toggle">
-            <Nav className="ml-auto nav-container">
+            <Nav className="ml-auto nav-bar">
               <Link to="/" className="mr-auto"><img className="logo" alt="" src={logo} /></Link>
               <Link style={{ color: "#111" }} className="nav-link" to="/">Home</Link>
               <Link style={{ color: "#111" }} className="nav-link" to="/about">About</Link>
