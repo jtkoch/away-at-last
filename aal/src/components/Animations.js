@@ -6,7 +6,7 @@ const Animations = () => {
     <div className="animations">
 
       <div className="sun">
-        <svg className="svg" viewBox="-20 -60 800 800">
+        <svg className="svg" viewBox="-275 85 800 600">
           <defs>
             <linearGradient id="grad1" x1="0%" y1="50%" x2="40%" y2="50%">
               <stop offset="0%" style={{stopColor:"#ffbb6a", stopOpacity:1}} />
@@ -17,7 +17,7 @@ const Animations = () => {
           <path
             className="line"
             fill="url(#grad1)"
-            stroke-width="1.5"
+            stroke-width=".5"
             fill-opacity="1"
           />
         </svg>

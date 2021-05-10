@@ -7,11 +7,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 6s forwards 1s ease-in Sun;
+      animation: 4s forwards 0s ease-in Sun;
     }
   }
 
@@ -23,11 +27,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 1s forwards 0.8s ease-in Wave;
+      animation: 0.1s forwards 0.7s ease-in Wave;
     }
   }
 
@@ -39,11 +47,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 1s forwards 0.7s ease-in Wave;
+      animation: 0.1s forwards 0.6s ease-in Wave;
     }
   }
 
@@ -55,11 +67,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 1s forwards 0.6s ease-in Wave;
+      animation: 0.1s forwards 0.5s ease-in Wave;
     }
   }
 
@@ -71,11 +87,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 1s forwards 0.5s ease-in Wave;
+      animation: 0.1s forwards 0.4s ease-in Wave;
     }
   }
 
@@ -88,11 +108,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 1s forwards 0.4s ease-in Wave;
+      animation: 0.1s forwards 0.3s ease-in Wave;
     }
   }
 
@@ -104,11 +128,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 1s forwards 0.3s ease-in Wave;
+      animation: 0.1s forwards 0.2s ease-in Wave;
     }
   }
 
@@ -120,11 +148,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 1s forwards 0.2s ease-in Wave;
+      animation: 0.1s forwards 0.1s ease-in Wave;
     }
   }
 
@@ -136,11 +168,15 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
       opacity: 0;
-      animation: 1s forwards 0.01s ease-in Wave;
+      animation: 0s forwards 0s ease-in Wave;
     }
   }
 
@@ -152,6 +188,10 @@
       left: 0;
       top: -10px;
       z-index: -1;
+
+      @media (max-width: 991px) {
+        margin-top: 100px;
+      }
     }
     
     .line {
@@ -167,8 +207,8 @@
 
     img {
       width: 30%;
-      margin-left: -70%;
-      margin-top: 10%;
+      margin-left: -55%;
+      margin-top: 12%;
     }
 
   }
@@ -181,9 +221,10 @@
 }
 
 @keyframes Sun {
-  0% { opacity: 0; d: path("M 645 150 A 50 50 0 1 1 660 150 "); stroke: #111; }
-  50% { opacity: .5; d: path("M 645 150 A 50 50 0 1 1 660 150 "); stroke: #111; }
-  100% { opacity: .8; d: path("M 645 165 A 50 50 0 1 1 660 165 "); stroke: #111; }
+  0% { opacity: 0; d: path("M 400 85 A 50 50 0 1 1 401 85 "); stroke: #111; }
+  50% { opacity: .5; d: path("M 400 85 A 50 50 0 1 1 401 85 "); stroke: #111; }
+  90% { opacity: .8; d: path("M 400 310 A 50 50 0 1 1 401 310 "); stroke: #111; }
+  100% { opacity: .8; d: path("M 400 300 A 50 50 0 1 1 401 300 "); stroke: #111; }
 }
 
 @keyframes Sand {
