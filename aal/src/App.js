@@ -1,5 +1,4 @@
 import "./App.css";
-import { Route, BrowserRouter as Router, Switch, Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -13,24 +12,27 @@ import logo from './images/logo-2.png';
 function App() {
   return (
     <Container fluid className="App">
-      <Router>
-        <Navbar expand="lg">
+      
+        <Navbar expand="lg" fixed="top">
           <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar-toggle">
             <Nav className="ml-auto nav-container">
-              <Link to="/" className="mr-auto"><img className="logo" alt="" src={logo} /></Link>
-              <Link style={{ color: "#111" }} className="nav-link" to="/">Home</Link>
-              <Link style={{ color: "#111" }} className="nav-link" to="/about">About</Link>
-              <Link style={{ color: "#111" }} className="nav-link" to="/contact">Contact</Link>
+              <a href="home" className="mr-auto"><img className="logo" alt="" src={logo} /></a>
+              <a style={{ color: "#111" }} className="nav-link" href="#home">Home</a>
+              <a style={{ color: "#111" }} className="nav-link" href="#about">About</a>
+              <a style={{ color: "#111" }} className="nav-link" href="#contact">Contact</a>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-      </Router>
+      <div id="home"> 
+        <Home />
+      </div>
+      <div id="about" >
+        <About />
+      </div>
+      <div id="contact" >
+        <Contact />
+      </div>
       <Footer />
     </Container>
   );
