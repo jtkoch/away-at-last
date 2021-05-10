@@ -1,4 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 @import "./home.scss";
 @import "./about.scss";
@@ -7,7 +9,6 @@
 
 body {
   font-size: 16px;
-  font-family: 'Arapey', serif;
   text-align: center;
   color: #111;
   height: 100%;

@@ -222,8 +222,8 @@
 
 @keyframes Sun {
   0% { opacity: 0; d: path("M 400 85 A 50 50 0 1 1 401 85 "); stroke: #111; }
-  50% { opacity: .5; d: path("M 400 85 A 50 50 0 1 1 401 85 "); stroke: #111; }
-  90% { opacity: .8; d: path("M 400 310 A 50 50 0 1 1 401 310 "); stroke: #111; }
+  25% { opacity: .5; d: path("M 400 85 A 50 50 0 1 1 401 85 "); stroke: #111; }
+  75% { opacity: .8; d: path("M 400 310 A 50 50 0 1 1 401 310 "); stroke: #111; }
   100% { opacity: .8; d: path("M 400 300 A 50 50 0 1 1 401 300 "); stroke: #111; }
 }
 

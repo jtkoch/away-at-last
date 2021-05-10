@@ -17,7 +17,7 @@ function App() {
           <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar-toggle">
             <Nav className="ml-auto nav-container">
-              <a href="home" className="mr-auto"><img className="logo" alt="" src={logo} /></a>
+              <a href="#home" className="mr-auto"><img className="logo" alt="" src={logo} /></a>
               <a style={{ color: "#111" }} className="nav-link" href="#home">Home</a>
               <a style={{ color: "#111" }} className="nav-link" href="#about">About</a>
               <a style={{ color: "#111" }} className="nav-link" href="#contact">Contact</a>
