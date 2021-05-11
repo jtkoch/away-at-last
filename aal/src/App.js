@@ -11,9 +11,9 @@ import logo from './images/logo-2.png';
 
 function App() {
   return (
-    <Container fluid className="App">
-      
-        <Navbar expand="lg" fixed="top">
+    <div className="App">
+      <Container fluid >   
+        <Navbar expand="lg">
           <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar-toggle">
             <Nav className="ml-auto nav-container">
@@ -24,17 +24,18 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      <div id="home"> 
-        <Home />
-      </div>
-      <div id="about" >
-        <About />
-      </div>
-      <div id="contact" >
-        <Contact />
-      </div>
-      <Footer />
-    </Container>
+        <div id="home"> 
+          <Home />
+        </div>
+        <div id="about" >
+          <About />
+        </div>
+        <div id="contact" >
+          <Contact />
+        </div>
+        <Footer />
+      </Container>
+    </div>
   );
 }
 

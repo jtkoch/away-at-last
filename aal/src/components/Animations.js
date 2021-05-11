@@ -1,5 +1,6 @@
 import React from "react";
 import tree from '../images/palm-tree.png'
+import arrow from '../images/down.png'
 
 const Animations = () => {
   return (
@@ -188,6 +189,10 @@ const Animations = () => {
       <div className="palm-tree">
         <img src={tree} alt="palm tree" />
       </div>
+
+      <a href="#why-us" className="arrow">
+        <img src={arrow} alt="arrow" />
+      </a>
 
     </div>
   );

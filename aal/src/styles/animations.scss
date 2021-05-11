@@ -208,9 +208,22 @@
     img {
       width: 30%;
       margin-left: -55%;
-      margin-top: 18%;
+      margin-top: 8%;
     }
+  }
 
+  .arrow {
+    @media (max-width: 991px) {
+      display: none;
+    }
+    
+    img {
+      width: 50px;
+
+      animation: Arrow 2s;
+      animation-direction: forwards;
+      animation-iteration-count: 5;
+    }
   }
 
 }
@@ -229,4 +242,9 @@
 
 @keyframes Sand {
   100% { opacity: 1; d: path("M 0 1500 L 0 300 C 390 240 450 330 840 300 L 840 1500 "); stroke: #111; }
+}
+
+@keyframes Arrow {
+  from { transform: translate3d(0, 0, 0);}
+  to { transform: translate3d(0, 25px, 0);}
 }

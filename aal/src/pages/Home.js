@@ -1,6 +1,5 @@
 import React from "react";
 import Animations from '../components/Animations';
-import Button from 'react-bootstrap/Button';
 
 import greece from '../images/greece.jpg';
 
@@ -10,16 +9,13 @@ const Home = () => {
 
       <Animations />
 
-      <div className="more">
-        <Button href="#why-us">Learn More!</Button>
-      </div>
-
       <div className="description" id="why-us" >
-        <div className="agency-image">
-          <img className="image1" src={greece} />
+
+       <div className="agency-image">
+          <img className="image1" src={greece} alt="greece" />
         </div>
 
-        <div className="agency-card">
+        <div className="why-text">
           <h4>Why us?</h4>
           <p className="agency">
             Away At Last Travel & Tours, along with my host agency, have many
@@ -28,19 +24,6 @@ const Home = () => {
             experience, and remember your special trip.
           </p>
         </div>
-
-        {/* <br></br>
-        <p>We are here to help you plan your next travel experience.</p>
-        <ul className="list">
-          <li>Destination weddings</li>
-          <li>Honeymoons</li>
-          <li>Group Travel</li>
-          <li>All inclusive resorts</li>
-          <li>Cruises</li>
-          <li>Theme parks</li>
-          <li>Tour packeges</li>
-          <li>Airlines, Hotels, and Much More...</li>
-        </ul> */}
       </div>
     </div>
   );
