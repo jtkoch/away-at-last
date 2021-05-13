@@ -11,12 +11,8 @@ const Home = () => {
 
       <div className="description" id="why-us" >
 
-       <div className="agency-image">
-          <img className="image1" src={greece} alt="greece" />
-        </div>
-
         <div className="why-text">
-          <h4>Why us?</h4>
+          <h1>Away At Last <br/> Travel & Tours</h1>
           <p className="agency">
             Away At Last Travel & Tours, along with my host agency, have many
             years of experience to provide you the best travel experience! Let us
@@ -24,6 +20,11 @@ const Home = () => {
             experience, and remember your special trip.
           </p>
         </div>
+
+       <div className="agency-image">
+          <img className="image1" src={greece} alt="greece" />
+        </div>
+
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
   .about-top {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: space-around;
     margin-top: 10%;
@@ -25,6 +25,7 @@
       .image2 {
         width: 600px;
         border-radius: 20px;
+        box-shadow: 5px 5px 10px 0px #555;
 
         @media (max-width: 1458px) {
           width: 80%;
@@ -94,6 +95,7 @@
       .image3 {
         width: 600px;
         border-radius: 20px;
+        box-shadow: 5px 5px 10px 0px #555;
 
         @media (max-width: 1458px) {
           width: 80%;

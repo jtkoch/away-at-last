@@ -6,6 +6,10 @@ const About = () => {
   return (
     <div className="About">
       <div className="about-top">
+        <div className="about-image">
+          <img className="image2" src={amsterdam} alt="amsterdam" />
+        </div>
+
         <div className="about-text">
           <h4>Why should you use a travel consultant?</h4>
           <ul className="about-list">
@@ -32,18 +36,10 @@ const About = () => {
             </li>
           </ul>
         </div>
-
-        <div className="about-image">
-          <img className="image2" src={amsterdam} alt="amsterdam" />
-        </div>
       </div>
 
       {/* bottom section */}
       <div className="about-bottom">
-        <div className="about-bottom-image">
-          <img className="image3" src={hiking} alt="hiking" />
-        </div>
-
         <div className="about-bottom-text">
           <h4>We are here to help you plan your next travel experience.</h4>
           <ul className="about-bottom-list">
@@ -56,6 +52,10 @@ const About = () => {
             <li>Tour packeges</li>
             <li>Airlines, Hotels, and Much More...</li>
           </ul> 
+        </div>
+
+        <div className="about-bottom-image">
+          <img className="image3" src={hiking} alt="hiking" />
         </div>
       </div>
 

@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  border: 1px solid #555;
+  padding: 3%;
+  border-radius: 20px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  box-shadow: 5px 5px 10px 0px #555;
+
+  @media (max-width: 1458px) {
+    width: 80%;
+  }
+
+  @media (max-width: 991px) {
+    margin-top: 20%;
+  }
+
+  @media (max-width: 700px) {
+    width: 90%;
+  }
+
+  .label {
+    padding: .5%;
+  }
+}

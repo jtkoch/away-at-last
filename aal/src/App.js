@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Container fluid >   
-        <Navbar expand="lg">
+        <Navbar expand="lg" id="home">
           <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
           <Navbar.Collapse id="navbar-toggle">
             <Nav className="ml-auto nav-container">
@@ -24,7 +24,7 @@ function App() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <div id="home"> 
+        <div> 
           <Home />
         </div>
         <div id="about" >
