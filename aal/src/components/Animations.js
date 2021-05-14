@@ -191,6 +191,7 @@ const Animations = () => {
       </div>
 
       <a href="#why-us" className="arrow">
+        <p>Learn more</p>
         <img src={arrow} alt="arrow" />
       </a>
 

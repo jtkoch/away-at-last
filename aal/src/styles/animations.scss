@@ -207,8 +207,18 @@
 
     img {
       width: 30%;
-      margin-left: -55%;
-      margin-top: 8%;
+      margin-left: -48%;
+      margin-top: 5%;
+
+      @media (max-width: 1458px) {
+        margin-top: 3%;
+      }
+      @media (max-width: 1200px) {
+        margin-top: 1%;
+      }
+      @media (min-width: 1800px) {
+        margin-top: 10%;
+      }
     }
   }
 
@@ -217,12 +227,17 @@
       display: none;
     }
     
-    img {
-      width: 50px;
+    p {
+      color: black;
+      padding: 3px;
+      text-decoration: none;
+    }
 
+    img {
+      width: 40px;
       animation: Arrow 2s;
       animation-direction: forwards;
-      animation-iteration-count: 5;
+      animation-iteration-count: 3;
     }
   }
 

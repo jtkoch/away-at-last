@@ -13,7 +13,6 @@ const About = () => {
         <div className="about-text">
           <h4>Why should you use a travel consultant?</h4>
           <ul className="about-list">
-            <li>I don’t charge booking fees, so no fees to use a consultant!</li>
             <li>A travel consultant will find the best value.</li>
             <li>
               A travel consultant will research, share knowledge and travel
