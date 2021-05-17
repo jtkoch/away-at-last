@@ -1,4 +1,5 @@
 import React from "react";
+import LazyLoad from 'react-lazyload';
 import Animations from '../components/Animations';
 
 import greece from '../images/greece.jpg';
@@ -10,7 +11,6 @@ const Home = () => {
       <Animations />
 
       <div className="description" id="why-us" >
-
         <div className="why-text">
           <h1>Away At Last <br/> Travel & Tours</h1>
           <p className="agency">
@@ -22,9 +22,10 @@ const Home = () => {
         </div>
 
        <div className="agency-image">
+        <LazyLoad once offset={300}>
           <img className="image1" src={greece} alt="greece" />
+        </LazyLoad>
         </div>
-
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react'
+import LazyLoad from 'react-lazyload';
 import amsterdam from '../images/amsterdam1.jpg'
 import hiking from '../images/hiking2.jpg'
 
@@ -7,7 +8,9 @@ const About = () => {
     <div className="About">
       <div className="about-top">
         <div className="about-image">
-          <img className="image2" src={amsterdam} alt="amsterdam" />
+          <LazyLoad once offset={300}>
+            <img className="image2" src={amsterdam} alt="amsterdam" />
+          </LazyLoad>
         </div>
 
         <div className="about-text">
@@ -54,7 +57,9 @@ const About = () => {
         </div>
 
         <div className="about-bottom-image">
-          <img className="image3" src={hiking} alt="hiking" />
+          <LazyLoad once offset={300}>
+            <img className="image3" src={hiking} alt="hiking" />
+          </LazyLoad>
         </div>
       </div>
 
